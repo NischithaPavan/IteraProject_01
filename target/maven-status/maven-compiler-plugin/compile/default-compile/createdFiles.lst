@@ -1,5 +1,5 @@
 com\crm\qa\base\TestBase.class
-com\crm\qa\pages\VerifyIteraLogo.class
 com\crm\qa\util\TestUtil.class
 com\crm\qa\pages\VerifyRadioBottonAndCheckBox.class
 com\crm\qa\pages\SignUpPage.class
+com\crm\qa\pages\VerifyIteraLogo.class

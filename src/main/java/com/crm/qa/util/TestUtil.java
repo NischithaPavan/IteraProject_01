@@ -3,9 +3,11 @@ package com.crm.qa.util;
 import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TestUtil {
@@ -39,13 +41,20 @@ public static void waitForVisibility(WebElement element, WebDriver driver) {
 		waitForClickable(element, driver);
 		element.click();
 	}
-	
-	
-	
-	 public static void sendkeys(WebElement element, String value,WebDriver driver) {
+	public static void sendkeys(WebElement element, String value,WebDriver driver) {
 		 waitForVisibility(element, driver);
 		 waitForClickable(element, driver);
 		 element.sendKeys(value);
 	 }
+	 public static void selectValueFromDropDownBy(WebDriver driver,WebElement element) {
+		 Select sel=new Select(element);
+		 sel.selectByVisibleText("Norway");
+		 
+	 }
 
+	 public static void scrollDown(WebDriver driver) {
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 js.executeScript("window.scrollBy(0,1000)", "");
+	 }
+	 
 }
