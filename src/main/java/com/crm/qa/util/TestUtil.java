@@ -54,7 +54,7 @@ public static void waitForVisibility(WebElement element, WebDriver driver) {
 
 	 public static void scrollDown(WebDriver driver) {
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
-		 js.executeScript("window.scrollBy(0,1000)", "");
+		 js.executeScript("window.scrollBy(0,1350)", "");
 	 }
 	 
 }

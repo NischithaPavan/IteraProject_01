@@ -7,7 +7,8 @@
       <class name="com.crm.qa.testcases.VerifyIteraLogoTest"/>
       <class name="com.crm.qa.testcases.VerifySignUpPageTest"/>
       <class name="com.crm.qa.testcases.VerifyRadioBottonAndCheckBoxTest"/>
-    <class name="com.crm.qa.testcases.TC_04_VerifySelectDropDownTest"/>
+     <class name="com.crm.qa.testcases.TC_04_VerifySelectDropDownTest"/>
+     <class name="com.crm.qa.testcases.TC_05_VerifyRadioButtonAndCheckBoxTest"/>
    
 
  </classes>

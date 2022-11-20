@@ -1,87 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-18T22:53:14 IST" name="Automation Suite" finished-at="2022-11-18T22:53:35 IST" duration-ms="21103">
+  <suite started-at="2022-11-20T20:16:35 IST" name="Automation Suite" finished-at="2022-11-20T20:17:12 IST" duration-ms="36808">
     <groups>
     </groups>
-    <test started-at="2022-11-18T22:53:14 IST" name="Web Application Test" finished-at="2022-11-18T22:53:35 IST" duration-ms="21103">
+    <test started-at="2022-11-20T20:16:35 IST" name="Web Application Test" finished-at="2022-11-20T20:17:12 IST" duration-ms="36808">
+      <class name="com.crm.qa.testcases.TC_05_VerifyRadioButtonAndCheckBoxTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_05_VerifyRadioButtonAndCheckBoxTest@5c6648b0]" started-at="2022-11-20T20:16:58 IST" name="setup" finished-at="2022-11-20T20:17:01 IST" duration-ms="2792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnTwoCheckBoxTest()[pri:2, instance:com.crm.qa.testcases.TC_05_VerifyRadioButtonAndCheckBoxTest@5c6648b0]" started-at="2022-11-20T20:17:01 IST" name="clickOnTwoCheckBoxTest" finished-at="2022-11-20T20:17:12 IST" duration-ms="11378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTwoCheckBoxTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.TC_05_VerifyRadioButtonAndCheckBoxTest@5c6648b0]" started-at="2022-11-20T20:17:12 IST" name="teardown" finished-at="2022-11-20T20:17:12 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.testcases.TC_05_VerifyRadioButtonAndCheckBoxTest -->
       <class name="com.crm.qa.testcases.VerifyIteraLogoTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.VerifyIteraLogoTest@57a3af25]" started-at="2022-11-18T22:53:14 IST" name="setUp" finished-at="2022-11-18T22:53:18 IST" duration-ms="3924" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.VerifyIteraLogoTest@7f0eb4b4]" started-at="2022-11-20T20:16:35 IST" name="setUp" finished-at="2022-11-20T20:16:39 IST" duration-ms="3642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifylogoTest()[pri:1, instance:com.crm.qa.testcases.VerifyIteraLogoTest@57a3af25]" started-at="2022-11-18T22:53:18 IST" name="verifylogoTest" finished-at="2022-11-18T22:53:18 IST" duration-ms="44" status="PASS">
+        <test-method signature="verifylogoTest()[pri:1, instance:com.crm.qa.testcases.VerifyIteraLogoTest@7f0eb4b4]" started-at="2022-11-20T20:16:39 IST" name="verifylogoTest" finished-at="2022-11-20T20:16:39 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.VerifyIteraLogoTest@57a3af25]" started-at="2022-11-18T22:53:18 IST" name="tearDown" finished-at="2022-11-18T22:53:18 IST" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.VerifyIteraLogoTest@7f0eb4b4]" started-at="2022-11-20T20:16:39 IST" name="tearDown" finished-at="2022-11-20T20:16:39 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.VerifyIteraLogoTest@57a3af25]" started-at="2022-11-18T22:53:18 IST" name="setUp" finished-at="2022-11-18T22:53:21 IST" duration-ms="3377" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.VerifyIteraLogoTest@7f0eb4b4]" started-at="2022-11-20T20:16:39 IST" name="setUp" finished-at="2022-11-20T20:16:43 IST" duration-ms="3383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyPageTitle()[pri:2, instance:com.crm.qa.testcases.VerifyIteraLogoTest@57a3af25]" started-at="2022-11-18T22:53:21 IST" name="verifyPageTitle" finished-at="2022-11-18T22:53:21 IST" duration-ms="11" status="PASS">
+        <test-method signature="verifyPageTitle()[pri:2, instance:com.crm.qa.testcases.VerifyIteraLogoTest@7f0eb4b4]" started-at="2022-11-20T20:16:43 IST" name="verifyPageTitle" finished-at="2022-11-20T20:16:43 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.VerifyIteraLogoTest@57a3af25]" started-at="2022-11-18T22:53:21 IST" name="tearDown" finished-at="2022-11-18T22:53:21 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.VerifyIteraLogoTest@7f0eb4b4]" started-at="2022-11-20T20:16:43 IST" name="tearDown" finished-at="2022-11-20T20:16:43 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.VerifyIteraLogoTest -->
       <class name="com.crm.qa.testcases.VerifySignUpPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.VerifySignUpPageTest@4135c3b]" started-at="2022-11-18T22:53:21 IST" name="setUp" finished-at="2022-11-18T22:53:24 IST" duration-ms="2986" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.VerifySignUpPageTest@31304f14]" started-at="2022-11-20T20:16:43 IST" name="setUp" finished-at="2022-11-20T20:16:46 IST" duration-ms="2793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAlltheFields()[pri:1, instance:com.crm.qa.testcases.VerifySignUpPageTest@4135c3b]" started-at="2022-11-18T22:53:24 IST" name="verifyAlltheFields" finished-at="2022-11-18T22:53:25 IST" duration-ms="703" status="PASS">
+        <test-method signature="verifyAlltheFields()[pri:1, instance:com.crm.qa.testcases.VerifySignUpPageTest@31304f14]" started-at="2022-11-20T20:16:46 IST" name="verifyAlltheFields" finished-at="2022-11-20T20:16:47 IST" duration-ms="1145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAlltheFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.VerifySignUpPageTest@4135c3b]" started-at="2022-11-18T22:53:25 IST" name="tearDown" finished-at="2022-11-18T22:53:25 IST" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.VerifySignUpPageTest@31304f14]" started-at="2022-11-20T20:16:47 IST" name="tearDown" finished-at="2022-11-20T20:16:47 IST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.VerifySignUpPageTest -->
       <class name="com.crm.qa.testcases.TC_04_VerifySelectDropDownTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@31304f14]" started-at="2022-11-18T22:53:28 IST" name="setup" finished-at="2022-11-18T22:53:31 IST" duration-ms="2547" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@2a4fb17b]" started-at="2022-11-20T20:16:50 IST" name="setup" finished-at="2022-11-20T20:16:54 IST" duration-ms="3139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyseletdropdownTest()[pri:1, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@31304f14]" started-at="2022-11-18T22:53:31 IST" name="VerifyseletdropdownTest" finished-at="2022-11-18T22:53:31 IST" duration-ms="105" status="PASS">
+        <test-method signature="VerifyseletdropdownTest()[pri:1, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@2a4fb17b]" started-at="2022-11-20T20:16:54 IST" name="VerifyseletdropdownTest" finished-at="2022-11-20T20:16:54 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyseletdropdownTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@31304f14]" started-at="2022-11-18T22:53:31 IST" name="teardown" finished-at="2022-11-18T22:53:31 IST" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@2a4fb17b]" started-at="2022-11-20T20:16:54 IST" name="teardown" finished-at="2022-11-20T20:16:54 IST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@31304f14]" started-at="2022-11-18T22:53:31 IST" name="setup" finished-at="2022-11-18T22:53:34 IST" duration-ms="3454" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@2a4fb17b]" started-at="2022-11-20T20:16:54 IST" name="setup" finished-at="2022-11-20T20:16:57 IST" duration-ms="3569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyWithoutUsingSelectMethods()[pri:2, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@31304f14]" started-at="2022-11-18T22:53:34 IST" name="VerifyWithoutUsingSelectMethods" finished-at="2022-11-18T22:53:35 IST" duration-ms="136" status="PASS">
+        <test-method signature="VerifyWithoutUsingSelectMethods()[pri:2, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@2a4fb17b]" started-at="2022-11-20T20:16:57 IST" name="VerifyWithoutUsingSelectMethods" finished-at="2022-11-20T20:16:58 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyWithoutUsingSelectMethods -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@31304f14]" started-at="2022-11-18T22:53:35 IST" name="teardown" finished-at="2022-11-18T22:53:35 IST" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.qa.testcases.TC_04_VerifySelectDropDownTest@2a4fb17b]" started-at="2022-11-20T20:16:58 IST" name="teardown" finished-at="2022-11-20T20:16:58 IST" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.crm.qa.testcases.TC_04_VerifySelectDropDownTest -->
       <class name="com.crm.qa.testcases.VerifyRadioBottonAndCheckBoxTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.VerifyRadioBottonAndCheckBoxTest@6302bbb1]" started-at="2022-11-18T22:53:25 IST" name="setup" finished-at="2022-11-18T22:53:28 IST" duration-ms="2498" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.VerifyRadioBottonAndCheckBoxTest@34a3d150]" started-at="2022-11-20T20:16:47 IST" name="setup" finished-at="2022-11-20T20:16:50 IST" duration-ms="2821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAllCheckBox()[pri:2, instance:com.crm.qa.testcases.VerifyRadioBottonAndCheckBoxTest@6302bbb1]" started-at="2022-11-18T22:53:28 IST" name="verifyAllCheckBox" finished-at="2022-11-18T22:53:28 IST" duration-ms="494" status="PASS">
+        <test-method signature="verifyAllCheckBox()[pri:2, instance:com.crm.qa.testcases.VerifyRadioBottonAndCheckBoxTest@34a3d150]" started-at="2022-11-20T20:16:50 IST" name="verifyAllCheckBox" finished-at="2022-11-20T20:16:50 IST" duration-ms="601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllCheckBox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.VerifyRadioBottonAndCheckBoxTest@6302bbb1]" started-at="2022-11-18T22:53:28 IST" name="tearDown" finished-at="2022-11-18T22:53:28 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.VerifyRadioBottonAndCheckBoxTest@34a3d150]" started-at="2022-11-20T20:16:50 IST" name="tearDown" finished-at="2022-11-20T20:16:50 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
